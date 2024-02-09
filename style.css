@@ -65,7 +65,16 @@ main > section:first-child > ul{
     border-bottom: solid;
     border-top: solid;
     border-color: var(--color-aqua);
+    border-radius: 0em;
+}
+
+main > section:first-child > ul:hover{
+    border-bottom: solid;
+    border-top: solid;
+    border-color: var(--color-aqua);
     border-radius: 10em;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
 }
 
 main > section:first-child > ul > p:nth-child(1){
